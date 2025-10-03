@@ -38,7 +38,8 @@ class  Car_Inventory(models.Model):
 
 class Car_InventoryAdmin(admin.ModelAdmin):
     	list_display = ('Plate_No', 'Car_Manufacturer','Car_Model', 'Car_Color','Mileage')
-'''
+```
+
 
 # OUTPUT
 ![Alt text](<Screenshot 2025-10-03 115141.png>)
